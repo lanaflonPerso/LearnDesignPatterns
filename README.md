@@ -1,1 +1,1 @@
-# LearnPatterns
+# LearnDesignPatterns
