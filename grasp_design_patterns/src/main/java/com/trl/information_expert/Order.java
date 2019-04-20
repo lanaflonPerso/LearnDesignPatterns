@@ -1,4 +1,4 @@
-package com.trl.grasp.information_expert;
+package com.trl.information_expert;
 
 import java.util.Arrays;
 import java.util.List;
