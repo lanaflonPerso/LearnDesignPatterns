@@ -15,6 +15,9 @@
         <module>design_patterns_example_1</module>
         <module>head_first_design_patterns</module>
         <module>professional_java_ee_design_patterns</module>
+        <module>gof_design_patterns</module>
+        <module>grasp_design_patterns</module>
+        <module>solid_design_principles</module>
     </modules>
 
 
