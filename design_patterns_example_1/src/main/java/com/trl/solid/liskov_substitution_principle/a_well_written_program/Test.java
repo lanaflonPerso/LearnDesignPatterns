@@ -2,7 +2,9 @@ package com.trl.solid.liskov_substitution_principle.a_well_written_program;
 
 
 public class Test {
+
     public static void main(String[] args) {
+
         Rectangle rectangle = new Rectangle(5,10);
         Square square = new Square(5);
 

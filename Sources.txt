@@ -1,0 +1,12 @@
+Web sites:
+        Шаблоны разработки. Sergey Nemchinsky
+                https://www.youtube.com/watch?v=S-RjiMAxHio&list=PLmqFxxywkatStbd9hdzVOS1hZa9dc56k4
+
+
+
+
+
+
+Books:
+        Head first design patterns.
+        Professional JavaEE design patterns.

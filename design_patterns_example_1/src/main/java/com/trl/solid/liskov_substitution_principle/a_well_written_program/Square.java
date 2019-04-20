@@ -2,6 +2,7 @@ package com.trl.solid.liskov_substitution_principle.a_well_written_program;
 
 
 public class Square implements Shape{
+
     private int wight;
 
     public Square(int wight) {
@@ -18,4 +19,5 @@ public class Square implements Shape{
     public int getSquare() {
         return  wight * wight;
     }
+
 }

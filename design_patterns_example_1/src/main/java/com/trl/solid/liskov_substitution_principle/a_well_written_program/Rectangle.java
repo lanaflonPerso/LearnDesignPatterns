@@ -1,4 +1,5 @@
 package com.trl.solid.liskov_substitution_principle.a_well_written_program;
+
 public class Rectangle  implements Shape{
 
     private int wight;
@@ -21,4 +22,5 @@ public class Rectangle  implements Shape{
     public int getSquare() {
         return wight * height;
     }
+
 }
