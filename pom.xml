@@ -22,6 +22,24 @@
 
 
 
+    <!--=================================================== Maven ===================================================-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <source>${java.version_8}</source>
+                    <target>${java.version_8}</target>
+                    <encoding>${sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+
     <!--================================================= Properties ================================================-->
     <properties>
 
