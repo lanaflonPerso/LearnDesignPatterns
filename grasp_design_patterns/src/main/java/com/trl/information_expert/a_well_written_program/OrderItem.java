@@ -1,4 +1,4 @@
-package com.trl.information_expert;
+package com.trl.information_expert.a_well_written_program;
 
 public class OrderItem {
 
@@ -11,4 +11,5 @@ public class OrderItem {
     public static double countValueTotalGoods(Goods goods, int amountGoodsCurrent){
         return goods.getPriceGoods() * amountGoodsCurrent;
     }
+
 }

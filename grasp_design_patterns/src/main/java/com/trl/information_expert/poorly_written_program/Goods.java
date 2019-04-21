@@ -1,4 +1,4 @@
-package com.trl.information_expert;
+package com.trl.information_expert.poorly_written_program;
 
 public class Goods {
 
@@ -18,4 +18,5 @@ public class Goods {
 
         return this.nameGoods;
     }
+
 }
