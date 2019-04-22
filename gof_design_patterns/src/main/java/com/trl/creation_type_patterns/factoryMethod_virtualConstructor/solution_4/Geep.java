@@ -1,6 +1,6 @@
 package com.trl.creation_type_patterns.factoryMethod_virtualConstructor.solution_4;
 
-public class Geep implements Car{
+public class Geep implements Car {
 
     @Override
     public void drive() {

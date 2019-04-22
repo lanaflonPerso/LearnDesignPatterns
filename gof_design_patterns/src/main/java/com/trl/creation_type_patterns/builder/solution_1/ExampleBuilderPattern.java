@@ -1,7 +1,7 @@
 package com.trl.creation_type_patterns.builder.solution_1;
 
 public class ExampleBuilderPattern {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         MealBuilder mealBuilder = new MealBuilder();
 

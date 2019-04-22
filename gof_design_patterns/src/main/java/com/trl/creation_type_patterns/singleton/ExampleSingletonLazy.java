@@ -6,8 +6,8 @@ public class ExampleSingletonLazy {
     private ExampleSingletonLazy() {
     }
 
-    public static synchronized ExampleSingletonLazy getInstance(){
-        if(instance == null){
+    public static synchronized ExampleSingletonLazy getInstance() {
+        if (instance == null) {
             instance = new ExampleSingletonLazy();
         }
         return instance;

@@ -1,6 +1,6 @@
 package com.trl.creation_type_patterns.factoryMethod_virtualConstructor.solution_4;
 
-public class NewGeep extends Geep{
+public class NewGeep extends Geep {
 
     @Override
     public void drive() {
@@ -13,7 +13,7 @@ public class NewGeep extends Geep{
     }
 
 
-    public void newFunction(){
+    public void newFunction() {
         System.out.println("NewGeep new function work");
     }
 }

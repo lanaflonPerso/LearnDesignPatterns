@@ -9,5 +9,6 @@ public interface TransportFactory {
 
     // chto fabrika bydit proizvodit
     Car createCar();                // avtomobili
+
     Aircraft createAircraft();      // samolotu
 }

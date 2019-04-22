@@ -1,25 +1,24 @@
 package com.trl.creation_type_patterns.singleton;
 
-// https://habr.com/post/129494/
-public class ExampleSingleton {
-
+// ---------------------- Enum com.trl.singleton
+// По мнению Joshua Bloch’а это лучший способ реализации шаблона
+enum SingletonEnum {
+    INSTANCE
 }
 
 //---------------------------------------------- Неленивый com.trl.singleton в Java --------------------------------------------
 
-// ---------------------- Static field
-class SingletonSF {
-    public static final SingletonSF INSTANCE = new SingletonSF();
+// https://habr.com/post/129494/
+public class ExampleSingleton {
+
 }
 //  + Простая и прозрачная реализация
 //  + Потокобезопасность
 //  - Не ленивая инициализация
 
-
-// ---------------------- Enum com.trl.singleton
-// По мнению Joshua Bloch’а это лучший способ реализации шаблона
-enum SingletonEnum {
-    INSTANCE;
+// ---------------------- Static field
+class SingletonSF {
+    public static final SingletonSF INSTANCE = new SingletonSF();
 }
 //  + Остроумно
 //  + Сериализация из коробки
@@ -95,12 +94,12 @@ Double Cheсked Lock. Более того, их отношение к подоб
 // --------------------- On Demand HolderValuesInt idiom
 class SingletonDHI {
 
-    public static class SingletonHolder {
-        public static final SingletonDHI HOLDER_INSTANCE = new SingletonDHI();
-    }
-
     public static SingletonDHI getInstance() {
         return SingletonHolder.HOLDER_INSTANCE;
+    }
+
+    public static class SingletonHolder {
+        public static final SingletonDHI HOLDER_INSTANCE = new SingletonDHI();
     }
 }
 //  + Ленивая инициализация

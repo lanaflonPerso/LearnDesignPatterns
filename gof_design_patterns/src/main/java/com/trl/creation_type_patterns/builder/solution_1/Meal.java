@@ -6,11 +6,11 @@ import java.util.List;
 public class Meal {
     private List<Item> items = new ArrayList<Item>();
 
-    public void addItem(Item item){
+    public void addItem(Item item) {
         items.add(item);
     }
 
-    public float getCost(){
+    public float getCost() {
         float cost = 0.0f;
 
         for (Item item : items) {
@@ -19,7 +19,7 @@ public class Meal {
         return cost;
     }
 
-    public void showItems(){
+    public void showItems() {
 
         for (Item item : items) {
             System.out.print("Item : " + item.name());

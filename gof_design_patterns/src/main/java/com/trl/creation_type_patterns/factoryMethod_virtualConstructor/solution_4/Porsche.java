@@ -1,6 +1,6 @@
 package com.trl.creation_type_patterns.factoryMethod_virtualConstructor.solution_4;
 
-public class Porsche implements Car{
+public class Porsche implements Car {
 
     @Override
     public void drive() {

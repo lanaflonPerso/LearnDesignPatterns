@@ -6,7 +6,7 @@ public class CarSelector {
     // fabrichnui method kotorui sozdaiot nyznui avtomobil
     public Car getCar(RoadType raodType) {
 
-        Car  car = null;
+        Car car = null;
 
         switch (raodType) {
             case CITY:
